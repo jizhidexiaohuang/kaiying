@@ -1,0 +1,48 @@
+<include file="Public:head"/>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>视频中心<small>{$st}</small></h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-home"></i> 首页</a></li>
+            <li class=""><a href=""><i class="fa fa-gears"></i> 首页管理</a></li><li class=""><a href="?Action=CURD&amp;CURDID=10"><i class="fa fa-desktop"></i> 视频中心</a></li>
+        </ol>
+
+    </section>
+     <section class="content">
+         <div class="row">
+             <div class="col-lg-1 col-md-2 col-xs-4 margin-bottom" style="margin: 0 15px 10px 0;">
+                 <a href="{:U('Video/videoedit')}" class="btn btn-info"><i class="fa fa-list"></i> 上传视频</a>
+             </div>
+             <div class="col-lg-6 col-md-6 col-xs-12 margin-bottom">
+             </div>
+             <div class="col-lg-4 col-md-3 col-xs-12 margin-bottom">
+             </div>
+         </div>
+         <div class="row">
+             <foreach name="videoInfo" item="vo">
+                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="box box-info">
+                         <div class="box-header">
+                             <h5 class="box-title text-nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;"><i class="fa fa-edit"></i>{$vo.Title}</h5>
+                         </div>
+                         <div class="box-body">
+                             <div class="col-lg-9 col-xs-9 col-md-8" style="margin: 0px;padding: 0px;">
+                                 <Img src="{$vo.Img}" width="100%" style="max-height: 200px;"/>
+                             </div>
+                             <div class="col-lg-3 col-xs-3 col-md-4 btn-group-vertical pull-right " style="margin:0px;">
+                                 <a href="{:U('Video/delVideo',array('VID'=>$vo['ID']))}"
+                                    title="删除" class="btn btn-danger" onclick="if(confirm('确定删除?')==false)return false;"><i class="fa fa-trash"></i></a>
+                             </div>
+                         </div>
+                         <div class="box-footer clearfix">
+                             <a class="btn btn-success" href="{:U('Video/videoedit',array('ID'=>$vo['ID']))}"><i class="fa fa-edit"></i> 修改</a>
+                         </div>
+                     </div>
+                 </div>
+             </foreach>
+
+
+         </div>
+     </section>
+</div>
+<include file="Public:footer"/>

@@ -1,0 +1,202 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边框*/
+ul, ol { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+select, input { vertical-align:middle;}
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+body {
+    font:14px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff
+}
+.clearfix:before,.clearfix:after {  /*清楚浮动*/
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a {color:#666; text-decoration:none; }
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-size:100%;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+.col-red{color: #C81623!important;}
+
+/*公共类*/
+.w {  /*版心 提取 */
+    width: 1200px;margin:0 auto;
+}
+.fl {
+    float:left
+}
+.fr {
+    float:right
+}
+.al {
+    text-align:left
+}
+.ac {
+    text-align:center
+}
+.ar {
+    text-align:right
+}
+.hide {
+    display:none
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+/*公共部分*/
+/*头部导航开始*/
+.header{
+    height:100px;
+    line-height: 100px;
+    .logo{
+        float: left;
+        img{
+            width:230px;
+        }
+    }
+    .nav{
+        float: right;
+        padding-right:80px;
+        height: 60px;
+        line-height: 60px;
+        padding-top:40px;
+        // padding-left:40px;
+        ul{
+            li{
+                float: left;
+                font-weight: bold;
+                padding:0px 30px;
+                background:url(/AppPublic/image/ico1.jpg) no-repeat center left;
+                &.active{
+                    // display: none;
+                    background:url(/AppPublic/image/ico1.jpg) no-repeat center left,
+                               url(/AppPublic/image/arrow.png) no-repeat 50% bottom;
+                }
+                a{
+                    text-decoration: none;
+                }
+                .menu{
+                    display: none;
+                    position: absolute;
+                    top: 100px;
+                    z-index:999;
+                    left: 0;
+                    width: 100%;
+                    background:url(/AppPublic/image/bg1.png) ;
+                    .list{
+                        ul{
+                            li{
+                                padding:0 20px;
+                                background:none;
+                                a{
+                                    color:#fff;
+                                    &:hover{
+                                        color:#4E7BA6;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .list1{
+                        padding-left:320px;
+                    }
+                    .list2{
+                        padding-left:450px;
+                    }
+                    .list3{
+                        padding-left:420px;
+                    }
+                    .list4{
+                        padding-left:710px;
+                    }
+                    .list5{
+                        padding-left:500px;
+                    }
+                    .list6{
+                        padding-left:940px;
+                    }
+                }
+            }
+            li:nth-of-type(1){
+                &.active{
+                    background: url(/AppPublic/image/ico1.jpg) no-repeat center left;
+                }
+            }
+            li:hover{
+                cursor:pointer;
+                a{
+                    color:#4E7BA6;
+                }
+            }
+            
+        }
+    }
+}
+
+/*尾部部导航开始*/
+.footer{
+    height: 100px;
+    background:#262834;
+    padding:0px!important;
+    color:#999;
+    .footer_box{
+        padding-top:25px;
+        .footer_left{
+            float: left;
+            p{
+                a{
+                    color:#999;
+                    text-decoration: none;
+                }
+            }
+        }
+        .footer_center{
+            float: left;
+            margin-left:30px;
+            position: relative;
+            .center_box{}
+            p{
+                float: left;
+            }
+            a{
+                display: inline-block;
+                position: absolute;
+                top:-6px;
+                left:70px;
+                width:30px;
+                height: 30px;
+                border-radius: 50%;
+                background:#f5f5f5;
+            }
+            a:nth-of-type(2){
+                left:112px;
+            }
+            a:nth-of-type(3){
+                left:154px;
+            }
+        }
+        .footer_right{
+            float: right;
+            ul{
+                li{
+                    float: left;
+                    padding:0 10px;
+                    a{
+                       color:#999;
+                        text-decoration: none; 
+                    }
+                }
+            }
+        }
+    }
+}

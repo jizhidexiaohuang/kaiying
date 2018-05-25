@@ -1,0 +1,44 @@
+<include file="Public:head"/>
+<link rel="stylesheet" href="/Public/page.css">
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>
+            核心优势
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 首页</a></li>
+            <li><i class="fa fa-users"></i> 产品服务</li>
+            <li class="active"><i class="fa fa-user"></i> 核心优势</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-lg-12 margin-bottom">
+                <div class="col-lg-6">
+                    <a href="{:U('Index/CoreEdit')}"><input type="button" class="btn btn-info" value="添加"></a>
+                </div>
+            </div>
+            <volist name="CArr" id="vo">
+            <div class="col-lg-3">
+                <div class="box box-primary">
+                    <div class="box-body box-profile">
+                        <img class="profile-user-img img-responsive img-circle" style="height:100px;" src="{$vo.Img}">
+                        <h3 class="profile-username text-center">　{$vo.Title}　</h3>
+                        <ul class="list-group list-group-unbordered">
+                            <li class="list-group-item"><b>上次更新时间</b> <a class="pull-right">{$vo.UpdateTime|date="Y-m-d",###}</a></li>
+                        </ul>
+                        <a class="btn btn-primary btn-block" href="{:U('Index/CoreEdit',array('CID'=>$vo['ID']))}"><i class="fa fa-pencil-square-o"></i> 修改</a>
+                        <a class="btn btn-warning btn-block" href="{:U('Index/delCore',array('CID'=>$vo['ID']))}" onclick="if(confirm('确定删除?')==false)return false;"><i class="fa fa-trash"></i> 删除</a>
+                    </div>
+                </div>
+            </div>
+            </volist>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 yahoo2">
+                {$Page}
+            </div>
+        </div>
+    </section>
+</div>
+<include file="Public:footer"/>

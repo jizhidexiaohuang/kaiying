@@ -1,0 +1,404 @@
+[ 2017-11-29T15:37:28+08:00 ] 183.13.200.122 /adm.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+NOTIC: [8] Undefined index: UserID /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0022s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0029s ]
+NOTIC: [8] Undefined index: PassWord /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 41 行.
+NOTIC: [8] Undefined index: UserID /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+
+[ 2017-11-29T15:37:31+08:00 ] 183.13.200.122 /adm.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+NOTIC: [8] Undefined index: UserID /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000374s ]
+
+[ 2017-11-29T15:37:35+08:00 ] 183.13.200.122 /adm.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+NOTIC: [8] Undefined index: UserID /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: UserInfo /www/wwwroot/guangbang/guangbang/Admin/Home/Controller/BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `UserName` = 'admin' AND `PassWord` = '4297f44b13955235245b2497399d7a93' AND `status` = 1 LIMIT 1   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: UPDATE `user` SET `UpdateTime`='2017-11-29 15:37:35',`LastIp`='183.13.200.122' WHERE ( ID = 1 ) [ RunTime:0.0655s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-11-29T15:37:36+08:00 ] 183.13.200.122 /adm.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type ="news" and Status > 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT sum(ShowTimes) as s FROM `news` WHERE ( Type ="news" and Status > 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type ="media" and Status > 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT sum(ShowTimes) as s FROM `news` WHERE ( Type ="media" and Status > 0 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2017-11-29T15:37:40+08:00 ] 183.13.200.122 /adm.php/Home/Index/aboutC/nav/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =22 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'company' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined variable: editID /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 301 行.
+NOTIC: [8] Undefined variable: actionN /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 302 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000413s ]
+
+[ 2017-11-29T15:38:51+08:00 ] 183.13.200.122 /adm.php/Home/Index/saveCompany.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/wwwroot/guangbang/guangbang/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0007s ]
+SQL: UPDATE `news` SET `Content`='<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;廣邦專業從事行星減速機、精密諧波減速機的研發生產、銷售、應用維護、提供專業傳動解決方案。</p><p>　　廣邦以製造硬軌加工中心起家，多年的加工技術沉澱，設備擁有數控插齒機、硬齒面滾齒機和數控斜齒拉床等加工設備，同時配備了齒輪檢測儀、萬能齒輪測量儀和三坐標測量儀等檢測設備，因看好行星減速機市場趨勢而投入研發生產行星減速機，并銷往大陸各個地區，應用行業有機床製造系統、食品包裝機械、木材加工機械、印刷機、造紙機和機器人領域等。</p><p>&nbsp; &nbsp; &nbsp;多年專注減速機品牌廣邦擁有強大研發技術團隊，在2010年投入研發精密諧波減速機，于2014年正式上市，目前在機器人、沖壓機械手、精密雕刻機床產生銷售、應用，並且已獲得客戶的肯定與極佳之口碑。2015年，東莞市廣邦自動化設備有限公司在廣東東莞成立，負責華南地區的業務來往，在工業自動化方案研發理念、系統架構及服務理念方面，廣邦傳動得到業界的廣泛認可。</p><p><br/></p>',`CoverImg`='/Public/uploads/2017-11-29/5a1e640be9964.png' WHERE ( Type = 'company' ) [ RunTime:0.0296s ]
+
+[ 2017-11-29T15:38:53+08:00 ] 183.13.200.122 /adm.php/Home/Index/aboutC.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'company' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+NOTIC: [8] Undefined variable: editID /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 301 行.
+NOTIC: [8] Undefined variable: actionN /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 302 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-11-29T15:39:14+08:00 ] 183.13.200.122 /adm.php/Home/Index/saveCompany.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: UPDATE `news` SET `Content`='<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;廣邦專業從事行星減速機、精密諧波減速機的研發生產、銷售、應用維護、提供專業傳動解決方案。</p><p>　　廣邦以製造硬軌加工中心起家，多年的加工技術沉澱，設備擁有數控插齒機、硬齒面滾齒機和數控斜齒拉床等加工設備，同時配備了齒輪檢測儀、萬能齒輪測量儀和三坐標測量儀等檢測設備，因看好行星減速機市場趨勢而投入研發生產行星減速機，并銷往大陸各個地區，應用行業有機床製造系統、食品包裝機械、木材加工機械、印刷機、造紙機和機器人領域等。</p><p>&nbsp; &nbsp; &nbsp;多年專注減速機品牌廣邦擁有強大研發技術團隊，在2010年投入研發精密諧波減速機，于2014年正式上市，目前在機器人、沖壓機械手、精密雕刻機床產生銷售、應用，並且已獲得客戶的肯定與極佳之口碑。2015年，東莞市廣邦自動化設備有限公司在廣東東莞成立，負責華南地區的業務來往，在工業自動化方案研發理念、系統架構及服務理念方面，廣邦傳動得到業界的廣泛認可。</p>' WHERE ( Type = 'company' ) [ RunTime:0.0222s ]
+
+[ 2017-11-29T15:39:16+08:00 ] 183.13.200.122 /adm.php/Home/Index/aboutC.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 28 and Status = 1 )  [ RunTime:0.0002s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'company' ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+NOTIC: [8] Undefined variable: editID /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 301 行.
+NOTIC: [8] Undefined variable: actionN /www/wwwroot/guangbang/guangbang/Admin/Runtime/Cache/Home/d472a04b8fa48ee0dfb0aa62739e5a8f.php 第 302 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000412s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+

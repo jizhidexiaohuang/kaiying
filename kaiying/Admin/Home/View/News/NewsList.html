@@ -1,0 +1,74 @@
+<include file="Public:head"/>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>公司要闻<small>{$statuStr}</small></h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-home"></i> 首页</a></li>
+            <li class=""><i class="fa fa-gears"></i> 新闻中心</li>
+            <li class="active">
+               <i class="fa fa-desktop"></i> 公司要闻
+            </li>
+        </ol>
+
+    </section>
+     <section class="content">
+         <div class="row">
+             <div class="col-lg-1 col-md-2 col-xs-4 margin-bottom" style="margin: 0 15px 10px 0;">
+                 <a href="{:U('News/NewsEdit')}" class="btn btn-info"><i class="fa fa-list"></i> 发布新闻</a>
+             </div>
+             <div class="col-lg-6 col-md-6 col-xs-12 margin-bottom">
+                 <a href="{:U('News/NewsList',array('statu'=>-1))}" class="btn btn-default"><i class="fa fa-trash"></i> 回收站</a>
+                 <a href="{:U('News/NewsList',array('statu'=>0))}" class="btn btn-warning"><i class="fa fa-check"></i> 未上线</a>
+                 <a href="{:U('News/NewsList',array('statu'=>1))}" class="btn btn-success"><i class="fa fa-list"></i> 上线中</a>
+                 <a href="{:U('News/NewsList',array('statu'=>2))}" class="btn btn-danger"><i class="fa fa-thumbs-up"></i> 推荐</a>
+             </div>
+             <div class="col-lg-4 col-md-3 col-xs-12 margin-bottom">
+                 <form action="{:U('News/NewsList')}" method="get" name="SearchForm" id="SearchForm">
+                     <div class="input-group">
+                             <input type="search" class="form-control" name="SearchWord" id="SearchWord" value="{$serachWord}" placeholder="请输入搜索关键词..."/>
+                         <input type="hidden" class="form-control" name="nav" id="nav" value="{$navID}" />
+                         <!--<input type="hidden" class="form-control" name="statu" id="statu" value="{$statu}" />-->
+                         <span class="input-group-btn">
+                            <button class="btn btn-info form-control" type="submit"><i class="fa fa-search"></i></button>
+                        </span>
+                     </div>
+                 </form>
+             </div>
+         </div>
+         <div class="row">
+             <foreach name="newsinfo" item="vo">
+                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="box box-info">
+                         <div class="box-header">
+                             <h5 class="box-title text-nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;"><i class="fa fa-edit"></i>{$vo.Title}</h5>
+                         </div>
+                         <div class="box-body">
+                             <div class="col-lg-9 col-xs-9 col-md-8 thumbnail" style="margin: 0px;padding: 0px;">
+                                 <img src="{$vo.CoverImg}" width="100%" style="height: 140px;"/>
+                             </div>
+                             <div class="col-lg-3 col-xs-3 col-md-4 btn-group-vertical pull-right " style="margin:0px;">
+                                 <a href="{:U('News/NewsChangeStatu',array('statu'=>-1,'NewID'=>$vo['ID']))}"
+                                    title="删除" class="btn btn-<if condition="$vo['Status'] eq -1">info<else/>default</if> Btn_Status-1 btn-block btn-sm"><i class="fa fa-trash"></i></a>
+                                 <a href="{:U('News/NewsChangeStatu',array('statu'=>0,'NewID'=>$vo['ID']))}"
+                                    title="下线" class="btn btn-<if condition="$vo['Status'] eq 0">info<else/>default</if> Btn_Status0 btn-sm"><i class="fa fa-battery-0"></i></a>
+                                 <a href="{:U('News/NewsChangeStatu',array('statu'=>1,'NewID'=>$vo['ID']))}"
+                                    title="上线" class="btn btn-<if condition="$vo['Status'] eq 1">info<else/>default</if> Btn_Status1 btn-sm"><i class="fa fa-battery-2"></i></a>
+                                 <a href="{:U('News/NewsChangeStatu',array('statu'=>2,'NewID'=>$vo['ID']))}"
+                                    title="推荐" class="btn btn-<if condition="$vo['Status'] eq 2">info<else/>default</if> Btn_Status2 btn-sm"><i class="fa fa-battery-4"></i></a>
+                             </div>
+                         </div>
+                         <div class="box-footer clearfix">
+                             <a class="btn btn-success"
+                                href="{:U('News/NewsEdit',array('ID'=>$vo['ID']))}"><i
+                                     class="fa fa-edit"></i> 修改</a>
+                         </div>
+                     </div>
+                 </div>
+             </foreach>
+         </div>
+         <div class="row text-center">
+             {$show}
+         </div>
+     </section>
+</div>
+<include file="Public:footer"/>

@@ -1,0 +1,51 @@
+<include file="Public:head"/>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>轮播图管理<small>{$st}</small></h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-home"></i> 首页</a></li>
+            <li class=""><a href=""><i class="fa fa-gears"></i> 首页管理</a></li><li class=""><a href="?Action=CURD&amp;CURDID=10"><i class="fa fa-desktop"></i> 轮播图管理</a></li>
+        </ol>
+
+    </section>
+     <section class="content">
+         <div class="row">
+             <div class="col-lg-1 col-md-2 col-xs-4 margin-bottom" style="margin: 0 15px 10px 0;">
+                 <a href="{:U('Index/ImgEdit')}" class="btn btn-info"><i class="fa fa-list"></i> 添加轮播图</a>
+             </div>
+             <div class="col-lg-6 col-md-6 col-xs-12 margin-bottom">
+                 <a href="{:U('Index/lunboList',array('Type'=>''))}" class="btn btn-default"><i class="fa fa-trash"></i> 全部</a>
+                 <a href="{:U('Index/lunboList',array('Type'=>'lg'))}" class="btn btn-warning"><i class="fa fa-desktop"></i> PC端</a>
+                 <a href="{:U('Index/lunboList',array('Type'=>'xs'))}" class="btn btn-success"><i class="fa fa-mobile"></i> 移动端</a>
+             </div>
+             <div class="col-lg-4 col-md-3 col-xs-12 margin-bottom">
+             </div>
+         </div>
+         <div class="row">
+             <foreach name="ImgArr" item="vo">
+                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                     <div class="box box-info">
+                         <div class="box-header">
+                             <h5 class="box-title text-nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;"><i class="fa fa-edit"></i>{$vo.ImgName}(排序：{$vo.Sort})</h5>
+                         </div>
+                         <div class="box-body">
+                             <div class="col-lg-9 col-xs-9 col-md-8" style="margin: 0px;padding: 0px;">
+                                 <img src="{$vo.ImgUrl}" width="100%" height="100px" />
+                             </div>
+                             <div class="col-lg-3 col-xs-3 col-md-4 btn-group-vertical pull-right " style="margin:0px;">
+                                 <a href="{:U('Index/ImgChangeStatu',array('statu'=>-1,'ImgID'=>$vo['ID']))}"
+                                    title="删除" class="btn btn-danger" onclick="if(confirm('确定删除?')==false)return false;"><i class="fa fa-trash"></i></a>
+                             </div>
+                         </div>
+                         <div class="box-footer clearfix">
+                             <a class="btn btn-success" href="{:U('Index/ImgEdit',array('ID'=>$vo['ID']))}"><i class="fa fa-edit"></i> 修改</a>
+                         </div>
+                     </div>
+                 </div>
+             </foreach>
+
+
+         </div>
+     </section>
+</div>
+<include file="Public:footer"/>

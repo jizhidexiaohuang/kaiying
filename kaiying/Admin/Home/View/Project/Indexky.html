@@ -1,0 +1,48 @@
+<include file="Public:head"/>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>凯盈集团<small>项目展示</small></h1>
+        <ol class="breadcrumb">
+            <li><a href="./"><i class="fa fa-home"></i> 首页</a></li>
+            <li class=""><a href=""><i class="fa fa-gears"></i> 项目展示</a></li><li class=""><a href="?Action=CURD&amp;CURDID=10"><i class="fa fa-desktop"></i> 凯盈集团</a></li>
+        </ol>
+
+    </section>
+     <section class="content">
+         <div class="row">
+             <div class="col-lg-1 col-md-2 col-xs-4 margin-bottom" style="margin: 0 15px 10px 0;">
+                 <a href="{:U('Project/projectedit',array('T'=>'凯盈集团-'))}" class="btn btn-info"><i class="fa fa-list"></i> 添加项目</a>
+             </div>
+             <div class="col-lg-6 col-md-6 col-xs-12 margin-bottom">
+             </div>
+             <div class="col-lg-4 col-md-3 col-xs-12 margin-bottom">
+             </div>
+         </div>
+         <div class="row">
+             <foreach name="ProjectInfo" item="vo">
+                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                     <div class="box box-info">
+                         <div class="box-header">
+                             <h5 class="box-title text-nowrap" style="width:100%;overflow:hidden;text-overflow:ellipsis;"><i class="fa fa-edit"></i>{$vo.Title}<if condition="$vo.Top eq 1">（置顶）</if></h5>
+                         </div>
+                         <div class="box-body">
+                             <div class="col-lg-9 col-xs-9 col-md-8" style="margin: 0px;padding: 0px;">
+                                 <Img src="{$vo.Img}" width="100%" style="max-height: 150px;"/>
+                             </div>
+                             <div class="col-lg-3 col-xs-3 col-md-4 btn-group-vertical pull-right " style="margin:0px;">
+                                 <a href="{:U('Project/delProject',array('PID'=>$vo['ID']))}"
+                                    title="删除" class="btn btn-danger" onclick="if(confirm('确定删除?')==false)return false;"><i class="fa fa-trash"></i></a>
+                             </div>
+                         </div>
+                         <div class="box-footer clearfix">
+                             <a class="btn btn-success" href="{:U('Project/projectedit',array('ID'=>$vo['ID'],'T'=>'凯盈集团-'))}"><i class="fa fa-edit"></i> 修改</a>
+                         </div>
+                     </div>
+                 </div>
+             </foreach>
+
+
+         </div>
+     </section>
+</div>
+<include file="Public:footer"/>

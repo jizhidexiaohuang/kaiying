@@ -1,0 +1,782 @@
+[ 2017-09-20T19:10:49+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002646s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0034s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0042s ]
+NOTIC: [8] Undefined index: PassWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 35 行.
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 36 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002923s ]
+
+[ 2017-09-20T19:10:50+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007103s ]
+
+[ 2017-09-20T19:10:58+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user` WHERE `UserName` = 'admin' AND `PassWord` = '1814ade23e8dfa6d628004a5ba455dce' AND `status` = 1 LIMIT 1   [ RunTime:0.0034s ]
+SQL: UPDATE `user` SET `UpdateTime`='2017-09-20 19:10:58' WHERE ( ID = 1 ) [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038275s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005196s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005240s ]
+
+[ 2017-09-20T19:10:59+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002414s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002726s ]
+
+[ 2017-09-20T19:10:59+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040974s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004448s ]
+
+[ 2017-09-20T19:11:01+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList/nav/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002561s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =5 ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003430s ]
+
+[ 2017-09-20T19:11:03+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002349s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0084s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0084s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `news` WHERE ( ID = 40 ) LIMIT 1   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002427s ]
+
+[ 2017-09-20T19:11:11+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0062s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: Status C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\NewsController.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0054s ]
+SQL: UPDATE `news` SET `Title`='11111',`remark`='111111111',`Promulgator`='11111111111111',`Content`='<p style=\"text-align: left;\"><img src=\"/ueditor/php/upload/image/20170920/1505905869.png\" title=\"1505905869.png\" alt=\"about_1-1.png\"/>阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所asd阿萨斯所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所所</p>',`Status`='1',`UpdateTime`='1505905871' WHERE ( ID =40 ) [ RunTime:0.0068s ]
+
+[ 2017-09-20T19:11:12+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0034s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0040s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0042s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003807s ]
+
+[ 2017-09-20T19:11:21+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004583s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0057s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `news` WHERE ( ID = 40 ) LIMIT 1   [ RunTime:0.0059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002998s ]
+
+[ 2017-09-20T19:17:18+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0068s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: Status C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\NewsController.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0075s ]
+SQL: UPDATE `news` SET `Title`='11111',`remark`='111111111',`Promulgator`='11111111111111',`Content`='<p>广东大海凯盈房产建设管理有限公司（简称：大海凯盈），成立于2017年3月15日，是大海智地与凯盈集团联手创立的新型综合性房地产运营商。</p><p><br/></p><p>公司定位为中国房地产开发运营商，大海凯盈创造性地将“代建模式”拓展为“全程委托开发模式”，打破中国传统的开发与投资合一的模式，实现土地方、投资方、开发管理商的“三权分离”的代开发“创新合作”模式，让项目开发的各权重体各施所长、实现专业化、精细化、科学化分工。实现信息、资源、资本的高效组合，快速启动项目开发，实现盈利，缔造中国房地产开发管理的新模式！</p><p><br/></p><p>凭籍开放创新的开发营造模式、良好的资本市场关系、卓越的开发运营能力和较强的项目发掘能力，大海凯盈服务于各类型的资本方、土地方和地产开发企业。业务包含政府代建、城市更新服务、资本代建、房地产开发投融资、委托开发管理、小股操盘、咨询顾问等领域。</p><p><br/></p><p>公司凝聚了众多具有国际视野及国内一线城市运营经验的房地产行业精英，团队成员均曾长期服务于国内知名一线房地产开发企业。</p><p><br/></p><p>董事长曲咏海先生曾任中海地产集团副总裁、营销公司董事长，在行业内享有高度的声誉和广泛的威望。</p><p><br/></p><p>总裁张炳光先生拥有超过20年房地产运营管理经验，对房地产行业发展有着深刻的认知、丰富的实践经验和广阔的视野，对房地产全产业链整合运营服务有独到见解和深厚造诣。</p><p><br/></p><p>联合创始人·副总裁雷若冰女士曾任多家大型集团公司、民营房地产投资公司、开发企业高管；中国房地产项目全程委托运营管理模式开拓者之一；中国房地产行业资深的运营管理者；具有丰富的房地产多方资源整合经验，服务与价值创造者。</p><p><br/></p><p>公司立足东莞，业务主要聚焦华南、华东、华中三大区域的重点城市。目前已与上市企业宜华健康及中财经基金、瑞威资本、鼎一投资等企业建立了战略合作关系。</p><p><br/></p><p><br/></p><p><br/></p>',`Status`='1',`UpdateTime`='1505906238' WHERE ( ID =40 ) [ RunTime:0.0097s ]
+
+[ 2017-09-20T19:17:19+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002687s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003101s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003890s ]
+
+[ 2017-09-20T19:27:32+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000140s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004542s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0089s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000922s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000985s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045063s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009240s ]
+
+[ 2017-09-20T19:27:33+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010141s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010196s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0035s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0039s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009492s ]
+
+[ 2017-09-20T19:27:35+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList/nav/22.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004164s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0090s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0089s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0089s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0087s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0097s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =22 ) LIMIT 1   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0087s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0099s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020753s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003646s ]
+
+[ 2017-09-20T20:24:27+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005308s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0040s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `news` WHERE ( ID = 40 ) LIMIT 1   [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000901s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043650s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004742s ]
+
+[ 2017-09-20T20:24:34+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0045s ]
+
+[ 2017-09-20T20:24:35+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit/ID/40.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0076s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `news` WHERE ( ID = 40 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004897s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005526s ]
+
+[ 2017-09-20T20:24:46+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList/nav/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004654s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0089s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0088s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0089s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0094s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =5 ) LIMIT 1   [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0099s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0089s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0096s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003362s ]
+
+[ 2017-09-20T20:24:48+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004185s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0058s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0070s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0052s ]
+NOTIC: [8] Undefined index: ID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\NewsController.class.php 第 287 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: editID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 370 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 373 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 377 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 385 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 389 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d01e7ad0e1db5050b39fcfc868d608ab.php 第 394 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003263s ]
+
+[ 2017-09-20T20:26:08+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004814s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0053s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.3058s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0051s ]
+NOTIC: [8] Undefined index: Status C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\NewsController.class.php 第 260 行.
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0058s ]
+SQL: INSERT INTO `news` (`Title`,`remark`,`Promulgator`,`Content`,`Status`,`UpdateTime`,`Type`) VALUES ('22222','2222','22222','<p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的好的</p><p style=\"white-space: normal;\">好的</p><p style=\"white-space: normal;\">好的<br/></p><p style=\"white-space: normal;\">好的</p><p style=\"white-space: normal;\">好的</p><p style=\"white-space: normal;\">好的</p><p><br/></p>','1','1505910368','media') [ RunTime:0.0530s ]
+
+[ 2017-09-20T20:26:10+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0099s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0092s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0096s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0095s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0096s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.3107s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0088s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0105s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017776s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004964s ]
+
+[ 2017-09-20T20:26:32+08:00 ] 127.0.0.1 /admin.php/Home/News/MediaReportList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008264s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0052s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='1814ade23e8dfa6d628004a5ba455dce' ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0052s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'media' and Status >-1 ) LIMIT 1   [ RunTime:0.0052s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'media' and Status >-1 ) ORDER BY ID DESC LIMIT 0,12   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 373 行.
+NOTIC: [8] Undefined variable: search C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\33f5cebbfdae77c114085f484fa10d8c.php 第 375 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.023887s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023951s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006499s ]
+

@@ -1,0 +1,146 @@
+<include file="Public:head"/>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/lang/zh-cn/zh-cn.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script type="text/javascript" charset="utf-8" src="/Public/bootstrap/fileinput/fileinput.js"></script>
+<script src="/Public/bootstrap/fileinput/fileinput.zh.js"></script>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>{$T}项目编辑</h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-home"></i> 首页</a></li>
+            <li class="">
+                <i class="fa fa-gears"></i> 项目展示
+            </li>
+            <li class="active">
+                <i class="fa fa-desktop"></i> 项目编辑
+            </li>
+        </ol>
+    </section>
+    <section class="content">
+        <form action="{:U('Project/Projectedit')}" role="form" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="PID" value="{$Pinfo['ID']}"/>
+            <div class="form-group">
+                <label for="Title">项目标题</label>
+                <input type="text" class="form-control" id="Title" name="Title" value="{$Pinfo['Title']}" placeholder="请输入标题">
+            </div>
+            <div class="form-group">
+                <label for="remark">项目小标题</label>
+                <input type="text" class="form-control" id="remark" name="remark" value="{$Pinfo['remark']}" placeholder="请输入小标题">
+            </div>
+            <div class="form-group">
+                <label for="Address">售楼处地址</label>
+                <input type="text" class="form-control" id="Address" name="Address" value="{$Pinfo['Address']}" placeholder="请输入售楼处地址">
+            </div>
+            <div class="form-group">
+                <label for="Tel">联系电话</label>
+                <input type="text" class="form-control" id="Tel" name="Tel" value="{$Pinfo['Tel']}" placeholder="请输入联系电话">
+            </div>
+            <if condition="$T eq '大海凯盈-'">
+                <div class="form-group">
+                    <div class="checkbox">
+                        <label><input type="checkbox" name="Top" value="1" <if condition="$Pinfo.Top eq 1">checked</if>>设为顶部置顶</label>
+                    </div>
+                </div>
+            </if>
+            <div class="form-group">
+                <label for="ord">排序（从大到小）</label>
+                <input type="text" class="form-control" id="ord" name="ord" value="{$Pinfo['ord']}" placeholder="请输入排序">
+            </div>
+            <label for="Type">项目状态</label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Statu" value="在售" <if condition="$Pinfo.Statu eq '在售'">checked</if>> 在售
+                </label>
+                <label style="margin-left:20px;">
+                    <input type="radio" name="Statu" value="已售" <if condition="$Pinfo.Statu eq '售完'">checked</if>>售完
+                </label>
+                <label style="margin-left:20px;">
+                    <input type="radio" name="Statu" value="待售" <if condition="$Pinfo.Statu eq '待售'">checked</if>>待售
+                </label>
+            </div>
+            <label for="Type">项目所属</label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="Type" value="大海凯盈" <if condition="$Pinfo.Type eq '大海凯盈'">checked</if>> 大海凯盈
+                </label>
+                <label style="margin-left:20px;">
+                    <input type="radio" name="Type" value="凯盈集团" <if condition="$Pinfo.Type eq '凯盈集团'">checked</if>>凯盈集团
+                </label>
+                <label style="margin-left:20px;">
+                    <input type="radio" name="Type" value="大海智地" <if condition="$Pinfo.Type eq '大海智地'">checked</if>>大海智地
+                </label>
+            </div>
+            <div class="form-group">
+                <label>封面图（570*340）</label>
+                <input id="file1" name="Img" type="file" data-show-caption="true">
+                <p class="help-block">支持jpg, png,jpeg,gif格式，大小不超过2M</p>
+            </div>
+            <label>多图上传类型<span style="color: red;">(如操作了下方的多图上传，务必选择上传类型,否则将全部替换)</span></label>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="imgarrType" value="1"> 全部替换
+                </label>
+                <label style="margin-left:20px;">
+                    <input type="radio" name="imgarrType" value="2" >新增
+                </label>
+            </div>
+            <div class="form-group">
+                <label>项目展示图（937*560）</label>
+                <input id="file2" name="ImgArr[]" type="file" data-show-caption="true" accept="image/*" multiple>
+                <p class="help-block">支持jpg, png,jpeg,gif格式，单图大小不超过2M</p>
+            </div>
+            <div class="form-group">
+                <label>介绍</label>
+                <textarea class="form-control" name="content" rows="3">{$Pinfo.content}</textarea>
+            </div>
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-success">提交</button>
+            </div>
+        </form>
+    </section>
+</div>
+<script type="text/javascript">
+    $("#file1").fileinput({
+        language: 'zh',
+        showUpload:false,
+        uploadUrl: "upload", //上传后台操作的方法
+        uploadAsync: false, //设置上传同步异步 此为同步
+        maxFileSize: 2*1024,
+        allowedFileExtensions: ['jpg', 'png','jpeg','gif'], //限制上传文件后缀
+        layoutTemplates:{
+//            actionDelete:'',
+            actionUpload:'',
+        },
+    });
+    $("#file2").fileinput({
+        language: 'zh',
+        showUpload:false,
+        uploadUrl: "upload", //上传后台操作的方法
+        uploadAsync: false, //设置上传同步异步 此为同步
+        maxFileSize: 4*1024,
+        allowedFileExtensions: ['jpg', 'png','jpeg','gif'], //限制上传文件后缀
+        layoutTemplates:{
+//            actionDelete:'',
+            actionUpload:''
+        },
+        initialPreview: [//预览图片的设置
+            "<img src='/Public/Img/so.png' class='file-preview-image' alt='肖像图片' title='肖像图片'>",
+            "<img src='/Public/Img/1.png' class='file-preview-image' alt='肖像图片' title='肖像图片'>",],
+        initialPreviewConfig: [{
+            caption: 'desert.jpg',// 展示的图片名称
+            width: '120px',// 图片高度
+            url: '{:U('Project/delete')}',// 预展示图片的删除调取路径
+            key: 100,// 可修改 场景2中会用的
+            extra: {id: 100} //调用删除路径所传参数
+    },{
+        caption: 'desert.jpg',// 展示的图片名称
+            width: '120px',// 图片高度
+            url: '{:U('Project/delete')}',// 预展示图片的删除调取路径
+            key: 100,// 可修改 场景2中会用的
+            extra: {id: 100} //调用删除路径所传参数
+    }],
+    });
+</script>
+<include file="Public:footer"/>

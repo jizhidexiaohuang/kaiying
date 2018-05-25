@@ -1,0 +1,1336 @@
+[ 2017-10-09T09:07:56+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015490s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: PassWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 41 行.
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004196s ]
+
+[ 2017-10-09T09:07:58+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006799s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0046s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019648s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009466s ]
+
+[ 2017-10-09T09:08:03+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `user` WHERE `UserName` = 'admin' AND `PassWord` = '4297f44b13955235245b2497399d7a93' AND `status` = 1 LIMIT 1   [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: UPDATE `user` SET `UpdateTime`='2017-10-09 09:08:03',`LastIp`='127.0.0.1' WHERE ( ID = 1 ) [ RunTime:0.0209s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002368s ]
+
+[ 2017-10-09T09:08:05+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000290s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0087s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0087s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0084s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0093s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0093s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007546s ]
+
+[ 2017-10-09T09:08:05+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003981s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0074s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0068s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0070s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0059s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0067s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002334s ]
+
+[ 2017-10-09T09:08:07+08:00 ] 127.0.0.1 /admin.php/Home/Video/Index/nav/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0037s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =12 ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `video`  [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 6 行.
+NOTIC: [8] Undefined variable: st C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003461s ]
+
+[ 2017-10-09T09:08:11+08:00 ] 127.0.0.1 /admin.php/Home/Video/videoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0069s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0062s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: ID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\VideoController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 6 行.
+NOTIC: [8] Undefined variable: Vinfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 302 行.
+NOTIC: [8] Undefined variable: Vinfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002504s ]
+
+[ 2017-10-09T09:08:43+08:00 ] 127.0.0.1 /admin.php/Home/Video/videoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0060s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0043s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0041s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0034s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0047s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\huangwj\Desktop\qipa\dhky\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(C:\Users\huangwj\Desktop\UPUPW_AP7.0-1512.1\UPUPW_AP7.0\temp\phpED0B.tmp): failed to open stream: No such file or directory C:\Users\huangwj\Desktop\qipa\dhky\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Users\huangwj\Desktop\qipa\dhky\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0050s ]
+SQL: INSERT INTO `video` (`Title`,`Img`,`Url`,`UpdateTime`) VALUES ('cscs','/Public/uploads/2017-10-09/59dacc1aea66b.jpg','/Public/uploads/2017-10-09/59dacc1b26ece.mp4','1507511323') [ RunTime:0.0196s ]
+
+[ 2017-10-09T09:08:44+08:00 ] 127.0.0.1 /admin.php/Home/Video/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000048s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002226s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0080s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `video`  [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 6 行.
+NOTIC: [8] Undefined variable: st C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005233s ]
+
+[ 2017-10-09T09:24:04+08:00 ] 127.0.0.1 /admin.php/Home/Video/delVideo/VID/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002517s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0071s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0076s ]
+SQL: DELETE FROM `video` WHERE ( ID =11 ) [ RunTime:0.0140s ]
+
+[ 2017-10-09T09:24:05+08:00 ] 127.0.0.1 /admin.php/Home/Video/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002209s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0066s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0067s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0064s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0063s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `video`  [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 6 行.
+NOTIC: [8] Undefined variable: st C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002574s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003123s ]
+
+[ 2017-10-09T10:12:47+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012560s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.3053s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0050s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0052s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.3058s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004637s ]
+
+[ 2017-10-09T10:12:48+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005404s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0041s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002801s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002832s ]
+
+[ 2017-10-09T10:12:52+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0048s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0054s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user` WHERE `UserName` = 'admin' AND `PassWord` = '4297f44b13955235245b2497399d7a93' AND `status` = 1 LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0050s ]
+SQL: UPDATE `user` SET `UpdateTime`='2017-10-09 10:12:52',`LastIp`='127.0.0.1' WHERE ( ID = 1 ) [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002523s ]
+
+[ 2017-10-09T10:12:53+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002256s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0048s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0045s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0045s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029511s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004033s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002626s ]
+
+[ 2017-10-09T10:12:53+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003103s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0074s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003600s ]
+
+[ 2017-10-09T10:12:55+08:00 ] 127.0.0.1 /admin.php/Home/Video/Index/nav/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002240s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0054s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0047s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =12 ) LIMIT 1   [ RunTime:0.0053s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0056s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `video` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `video`  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 6 行.
+NOTIC: [8] Undefined variable: st C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\206c133e1a672fa7272242e09e2b19f4.php 第 283 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004193s ]
+
+[ 2017-10-09T10:12:56+08:00 ] 127.0.0.1 /admin.php/Home/Video/videoedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002883s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0056s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0048s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0047s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0054s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0046s ]
+NOTIC: [8] Undefined index: ID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\VideoController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [8] Undefined variable: Title C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 6 行.
+NOTIC: [8] Undefined variable: Vinfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 302 行.
+NOTIC: [8] Undefined variable: Vinfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\d51aa7cba5f2368ed7b2349e34727214.php 第 305 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003284s ]
+
+[ 2017-10-09T13:36:13+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003565s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0038s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0042s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0053s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0043s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0047s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0048s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004758s ]
+
+[ 2017-10-09T13:36:15+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0049s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0044s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000566s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002621s ]
+
+[ 2017-10-09T13:36:23+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0072s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002669s ]
+
+[ 2017-10-09T13:36:28+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002438s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0085s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.2186s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0081s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004858s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004896s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003272s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003299s ]
+
+[ 2017-10-09T13:36:28+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002601s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0075s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0076s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0069s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0070s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0074s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0065s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047253s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047344s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010745s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007835s ]
+
+[ 2017-10-09T13:36:29+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0051s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0055s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0047s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0046s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0045s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0044s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0044s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0051s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035174s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006817s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006858s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003416s ]
+
+[ 2017-10-09T13:36:34+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0066s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0057s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0065s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0063s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002983s ]
+
+[ 2017-10-09T13:36:39+08:00 ] 127.0.0.1 /admin.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+NOTIC: [8] Undefined index: UserID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0084s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0073s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0083s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0079s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0077s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0071s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0078s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0082s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: UserInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\BaseController.class.php 第 17 行.
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.3083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0079s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE `UserName` = 'admin' AND `PassWord` = '4297f44b13955235245b2497399d7a93' AND `status` = 1 LIMIT 1   [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0097s ]
+SQL: UPDATE `user` SET `UpdateTime`='2017-10-09 13:36:39',`LastIp`='127.0.0.1' WHERE ( ID = 1 ) [ RunTime:0.0261s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005255s ]
+
+[ 2017-10-09T13:36:42+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0092s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0086s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0077s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0073s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0083s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0082s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002851s ]
+
+[ 2017-10-09T13:36:45+08:00 ] 127.0.0.1 /admin.php/Home/News/NewsList/nav/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002242s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.3056s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0055s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.0059s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0052s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.0042s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0044s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0051s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0049s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =4 ) LIMIT 1   [ RunTime:0.0043s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0062s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0051s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0057s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `news` WHERE ( Type = 'news'  and Status >-1 ) LIMIT 1   [ RunTime:0.0072s ]
+SQL: SELECT `ID`,`Title`,`CoverImg`,`Status` FROM `news` WHERE ( Type = 'news'  and Status >-1 ) ORDER BY ID DESC LIMIT 0,6   [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+NOTIC: [8] Undefined variable: serachWord C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\02d46988b6c6a6644d844a691f96b759.php 第 307 行.
+NOTIC: [8] Undefined variable: statu C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\02d46988b6c6a6644d844a691f96b759.php 第 309 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040255s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007999s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004655s ]
+
+[ 2017-10-09T13:36:47+08:00 ] 127.0.0.1 /admin.php/Home/News/NewsEdit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `user` WHERE ( ID = 1 ) LIMIT 1   [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `auth` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( Status = 1 )  [ RunTime:0.0075s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 1 and Status = 1 )  [ RunTime:0.3089s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 2 and Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 6 and Status = 1 )  [ RunTime:0.0081s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 13 and Status = 1 )  [ RunTime:0.3091s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 17 and Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 19 and Status = 1 )  [ RunTime:0.0085s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 23 and Status = 1 )  [ RunTime:0.0078s ]
+SQL: SELECT * FROM `auth` WHERE ( fid = 24 and Status = 1 )  [ RunTime:0.0079s ]
+SQL: SELECT `fid` FROM `auth` WHERE ( id =1 ) LIMIT 1   [ RunTime:0.0082s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `message` WHERE ( Status = 0 ) LIMIT 1   [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `user` WHERE ( PassWord ='4297f44b13955235245b2497399d7a93' ) LIMIT 1   [ RunTime:0.0082s ]
+NOTIC: [8] Undefined index: ID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Home\Controller\NewsController.class.php 第 109 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000266s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] Undefined variable: editID C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 302 行.
+NOTIC: [8] Undefined variable: actionN C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 303 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 306 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 310 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 318 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 322 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 326 行.
+NOTIC: [8] Undefined variable: NewsInfo C:\Users\huangwj\Desktop\qipa\dhky\Admin\Runtime\Cache\Home\b05b665faa51b95c19b114faaf9b93a8.php 第 331 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005454s ]
+

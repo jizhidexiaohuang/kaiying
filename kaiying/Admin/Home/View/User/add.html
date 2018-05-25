@@ -1,0 +1,195 @@
+<include file="Public:head"/>
+<script type="text/javascript" charset="utf-8" src="/Public/bootstrap/fileinput/fileinput.js"></script>
+<script src="/Public/bootstrap/fileinput/fileinput.zh.js"></script>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>
+            {$str}管理员
+            <small>管理员管理</small>
+        </h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-dashboard"></i> 首页</a></li>
+            <li><i class="fa fa-dashboard"></i> 用户管理</li>
+            <li class="active">{$str}管理员</li>
+        </ol>
+    </section>
+    <section class="content">
+        <div class="row">
+            <div class="col-lg-12">
+                <form action="{:U('User/add')}" method="post" enctype="multipart/form-data">
+                    <div class="box box-success">
+                        <div class="box-header"><h3 class="box-title"><i class="fa fa-plus"></i> {$str}管理员</h3></div>
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="UserName">管理员账号</label>
+                                <input class="form-control" type="text" name="UserName" id="UserName"
+                                       value="{$User['UserName']}"
+                                       placeholder="请输入用户名">
+                            </div>
+                            <if condition="$type neq 1">
+                                <div class="form-group">
+                                    <label for="PassWord">密码</label>
+                                    <input class="form-control" type="password" name="PassWord" id="PassWord"
+                                           value=""
+                                           placeholder="请输入密码">
+                                </div>
+                            </if>
+
+
+                            <div class="form-group">
+                                <label for="Mobile">手机号码</label>
+                                <input class="form-control" type="number" name="Mobile" id="Mobile"
+                                       value="{$User['Mobile']}"
+                                       placeholder="请输入手机号码">
+                            </div>
+                            <div class="form-group">
+                                <label for="NickName">真实姓名</label>
+                                <input class="form-control" type="text" name="TrueName" id="TrueName"
+                                       value="{$User['TrueName']}"
+                                       placeholder="请输入真实姓名">
+                            </div>
+                            <div class="form-group">
+                                <label for="NickName">部门</label>
+                                <input class="form-control" type="text" name="Department" id="Department"
+                                       value="{$User['Department']}"
+                                       placeholder="请输入部门">
+                            </div>
+                            <div class="form-group">
+                                <label for="NickName">职位</label>
+                                <input class="form-control" type="text" name="Position" id="Position"
+                                       value="{$User['Position']}"
+                                       placeholder="请输入职位">
+                            </div>
+                            <div class="form-group">
+                                <label>用户头像</label>
+                                <input id="file" name="CoverImg" type="file" data-show-caption="true">
+                                <p class="help-block">支持jpg、jpeg、png格式，大小不超过2.0M</p>
+                            </div>
+                            <div class="row">
+                                <if condition="$type eq 1">
+                                当前头像:<span style="color:#F00"></span><img src="{$User.HeadImg}"
+                                width="100px"/>
+                                </if>
+                            </div>
+                            <div class="form-group">
+                                <label for="Status">用户状态</label>
+                                <select class="form-control " name="Status" id="Status">
+                                    <option value="0"
+                                    <if condition="$User.status eq 0">selected</if>
+                                    >禁用</option>
+                                    <option value="1"
+                                    <if condition="$User.status eq 1">selected</if>
+                                    >启用</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="Sex">性别</label>
+                                <select class="form-control " name="Sex" id="Sex">
+                                    <option value="0"
+                                    <if condition="$User.Sex eq 0">selected</if>
+                                    >女</option>
+                                    <option value="1"
+                                    <if condition="$User.Sex eq 1">selected</if>
+                                    >男</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="box-footer">
+                            <input type="hidden" name="type" value="{$type}"/>
+                            <input type="hidden" name="ID" value="{$User.ID}"/>
+                            <button class="btn btn-success btn-block" type="submit" accesskey="s"><i
+                                    class="fa fa-check"></i> 提交
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+</div>
+<script>
+    $("#file").fileinput({
+        language: 'zh',
+        showUpload:false,
+        uploadUrl: "upload", //上传后台操作的方法
+        uploadAsync: false, //设置上传同步异步 此为同步
+        maxFileSize: 2024,
+        allowedFileExtensions: ['jpg', 'png','jpeg','gif'], //限制上传文件后缀
+        layoutTemplates:{
+            actionDelete:'',
+            actionUpload:''
+        },
+        msgFilesTooMany:1
+    });
+
+    $("#file-0").fileinput({
+        'allowedFileExtensions': ['jpg', 'png', 'gif'],
+    });
+    $("#file-1").fileinput({
+        uploadUrl: '/Public/upload/', // you must set a valid URL here else you will get an error
+        allowedFileExtensions: ['jpg', 'png', 'gif'],
+        overwriteInitial: false,
+        maxFileSize: 1000,
+        maxFilesNum: 3,
+        //allowedFileTypes: ['image', 'video', 'flash'],
+        slugCallback: function (filename) {
+            return filename.replace('(', '_').replace(']', '_');
+        }
+    });
+    /*
+     $(".file").on('fileselect', function(event, n, l) {
+     alert('File Selected. Name: ' + l + ', Num: ' + n);
+     });
+     */
+    $("#file-3").fileinput({
+        showUpload: false,
+        showCaption: false,
+        browseClass: "btn btn-primary btn-lg",
+        fileType: "any",
+        previewFileIcon: "<i class='glyphicon glyphicon-king'></i>"
+    });
+    $("#file-4").fileinput({
+        uploadExtraData: {kvId: '10'}
+    });
+    $(".btn-warning").on('click', function () {
+        if ($('#file-4').attr('disabled')) {
+            $('#file-4').fileinput('enable');
+        } else {
+            $('#file-4').fileinput('disable');
+        }
+    });
+    $(".btn-info").on('click', function () {
+        $('#file-4').fileinput('refresh', {previewClass: 'bg-info'});
+    });
+    /*
+     $('#file-4').on('fileselectnone', function() {
+     alert('Huh! You selected no files.');
+     });
+     $('#file-4').on('filebrowse', function() {
+     alert('File browse clicked for #file-4');
+     });
+     */
+    $(document).ready(function () {
+        $("#test-upload").fileinput({
+            'showPreview': false,
+            'allowedFileExtensions': ['jpg', 'png', 'gif'],
+            'elErrorContainer': '#errorBlock'
+        });
+        /*
+         $("#test-upload").on('fileloaded', function(event, file, previewId, index) {
+         alert('i = ' + index + ', id = ' + previewId + ', file = ' + file.name);
+         });
+         */
+    });
+    $("#input-24").fileinput({
+        initialPreview: [
+            "<img src='/images/moon.jpg' class='file-preview-image' alt='The Moon' title='The Moon'>",
+            "<img src='/images/earth.jpg' class='file-preview-image' alt='The Earth' title='The Earth'>",
+        ],
+        overwriteInitial: false,
+        maxFileSize: 100,
+        initialCaption: "The Moon and the Earth"
+    });
+</script>
+<include file="Public:footer"/>

@@ -1,0 +1,70 @@
+<include file="Public:head"/>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="/Public/utf8-php/lang/zh-cn/zh-cn.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<script type="text/javascript" charset="utf-8" src="/Public/bootstrap/fileinput/fileinput.js"></script>
+<script src="/Public/bootstrap/fileinput/fileinput.zh.js"></script>
+<div class="content-wrapper">
+    <section class="content-header">
+        <h1>视频编辑</h1>
+        <ol class="breadcrumb">
+            <li><a href="{:U('Index/index')}"><i class="fa fa-home"></i> 首页</a></li>
+            <li class="">
+                <i class="fa fa-gears"></i> 新闻中心
+            </li>
+            <li class="active">
+                <i class="fa fa-desktop"></i> 视频编辑
+            </li>
+        </ol>
+    </section>
+    <section class="content">
+        <form action="{:U('Video/videoedit')}" role="form" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="VID" value="{$Vinfo['ID']}"/>
+            <div class="form-group">
+                <label for="Title">视频标题</label>
+                <input type="text" class="form-control" id="Title" name="Title" value="{$Vinfo['Title']}" placeholder="请输入标题">
+            </div>
+            <div class="form-group">
+                <label>封面图（1440*900）</label>
+                <input id="file1" name="Img" type="file" data-show-caption="true">
+                <p class="help-block">支持jpg, png,jpeg,gif格式，大小不超过2M</p>
+            </div>
+            <div class="form-group">
+                <label>视频</label>
+                <input id="file" name="CoverImg" type="file" data-show-caption="true">
+                <p class="help-block">支持mp4格式，大小不超过100M</p>
+            </div>
+            <div class="form-group text-right">
+                <button type="submit" class="btn btn-success">提交</button>
+            </div>
+        </form>
+    </section>
+</div>
+<script type="text/javascript">
+    $("#file").fileinput({
+        language: 'zh',
+        showUpload:false,
+        uploadUrl: "upload", //上传后台操作的方法
+        uploadAsync: false, //设置上传同步异步 此为同步
+        maxFileSize: 100*1024,
+        allowedFileExtensions: ['mp4','avi'], //限制上传文件后缀
+        layoutTemplates:{
+            actionDelete:'',
+            actionUpload:''
+        }
+    });
+    $("#file1").fileinput({
+        language: 'zh',
+        showUpload:false,
+        uploadUrl: "upload", //上传后台操作的方法
+        uploadAsync: false, //设置上传同步异步 此为同步
+        maxFileSize: 2*1024,
+        allowedFileExtensions: ['jpg', 'png','jpeg','gif'], //限制上传文件后缀
+        layoutTemplates:{
+            actionDelete:'',
+            actionUpload:''
+        }
+    });
+</script>
+<include file="Public:footer"/>

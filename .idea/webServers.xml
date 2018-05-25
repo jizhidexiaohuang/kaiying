@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0c2769e2-e702-4b58-aaa2-e02fb5a9dd91" name="kaiying" url="http://120.77.46.247">
+        <fileTransfer host="120.77.46.247" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

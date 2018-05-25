@@ -1,0 +1,462 @@
+[ 2017-10-24T12:01:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006428s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.3083s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'news' and Status = 2 ) LIMIT 1   [ RunTime:0.0248s ]
+SQL: SELECT `ID`,`UpdateTime`,`Title` FROM `news` WHERE ( Type = 'news' and Status = 1 ) ORDER BY ID DESC LIMIT 0,2   [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `img` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='lg' ) ORDER BY Sort ASC  [ RunTime:0.0065s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='xs' ) ORDER BY Sort ASC  [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005037s ]
+
+[ 2017-10-24T12:03:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003466s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'news' and Status = 2 ) LIMIT 1   [ RunTime:0.2216s ]
+SQL: SELECT `ID`,`UpdateTime`,`Title` FROM `news` WHERE ( Type = 'news' and Status = 1 ) ORDER BY ID DESC LIMIT 0,2   [ RunTime:0.0038s ]
+SQL: SHOW COLUMNS FROM `img` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='lg' ) ORDER BY Sort ASC  [ RunTime:0.0046s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='xs' ) ORDER BY Sort ASC  [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000535s ]
+NOTIC: [8] Undefined variable: bc C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007377s ]
+
+[ 2017-10-24T12:03:47+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021828s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'news' and Status = 2 ) LIMIT 1   [ RunTime:0.0187s ]
+SQL: SELECT `ID`,`UpdateTime`,`Title` FROM `news` WHERE ( Type = 'news' and Status = 1 ) ORDER BY ID DESC LIMIT 0,2   [ RunTime:0.0041s ]
+SQL: SHOW COLUMNS FROM `img` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='lg' ) ORDER BY Sort ASC  [ RunTime:0.0047s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='xs' ) ORDER BY Sort ASC  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined variable: bc C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 263 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007954s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004114s ]
+
+[ 2017-10-24T12:04:07+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003381s ]
+SQL: SHOW COLUMNS FROM `news` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `news` WHERE ( Type = 'news' and Status = 2 ) LIMIT 1   [ RunTime:0.0199s ]
+SQL: SELECT `ID`,`UpdateTime`,`Title` FROM `news` WHERE ( Type = 'news' and Status = 1 ) ORDER BY ID DESC LIMIT 0,2   [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `img` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='lg' ) ORDER BY Sort ASC  [ RunTime:0.0050s ]
+SQL: SELECT * FROM `img` WHERE ( Status>0 and Type='xs' ) ORDER BY Sort ASC  [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000298s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004188s ]
+
+[ 2017-10-24T12:04:21+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/serverobj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+SQL: SHOW COLUMNS FROM `serverobj` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `serverobj` ORDER BY ID ASC  [ RunTime:0.0050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000427s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003447s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003179s ]
+
+[ 2017-10-24T12:04:23+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/CoreAdvantage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003442s ]
+SQL: SHOW COLUMNS FROM `core` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `core` ORDER BY ID ASC  [ RunTime:0.0061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2017-10-24T12:04:25+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/businessone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002751s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003837s ]
+
+[ 2017-10-24T12:04:26+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/serverobj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015281s ]
+SQL: SHOW COLUMNS FROM `serverobj` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `serverobj` ORDER BY ID ASC  [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003876s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003327s ]
+
+[ 2017-10-24T12:04:27+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/CoreAdvantage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004726s ]
+SQL: SHOW COLUMNS FROM `core` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `core` ORDER BY ID ASC  [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002805s ]
+
+[ 2017-10-24T12:04:27+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/businessone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002803s ]
+
+[ 2017-10-24T12:04:28+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/serverobj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002768s ]
+SQL: SHOW COLUMNS FROM `serverobj` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `serverobj` ORDER BY ID ASC  [ RunTime:0.0094s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008334s ]
+
+[ 2017-10-24T12:04:29+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/businessone.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024362s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003940s ]
+
+[ 2017-10-24T12:04:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/CoreAdvantage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006655s ]
+SQL: SHOW COLUMNS FROM `core` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `core` ORDER BY ID ASC  [ RunTime:0.3067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006441s ]
+
+[ 2017-10-24T12:04:30+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/CoreAdvantage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+SQL: SHOW COLUMNS FROM `core` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `core` ORDER BY ID ASC  [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003164s ]
+
+[ 2017-10-24T12:04:31+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/serverobj.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `serverobj` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `serverobj` ORDER BY ID ASC  [ RunTime:0.0104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003830s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004160s ]
+
+[ 2017-10-24T12:04:33+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/management.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004719s ]
+NOTIC: [8] Undefined index: level C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Home\Controller\IndexController.class.php 第 204 行.
+SQL: SHOW COLUMNS FROM `manage` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `manage` WHERE ( level = 1 and Status > 0 )  [ RunTime:0.0072s ]
+SQL: SELECT `level`,`position` FROM `manage` WHERE ( Status > 0 ) GROUP BY position ORDER BY level ASC  [ RunTime:0.0058s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004128s ]
+
+[ 2017-10-24T12:04:35+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/showProject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004757s ]
+NOTIC: [8] Undefined index: S C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Home\Controller\IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 0 and Type="大海凯盈" ) ORDER BY ord DESC  [ RunTime:0.0063s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 1 and Type="大海凯盈" ) ORDER BY ord DESC  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: S C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Runtime\Cache\Home\2aeb8ff219cac991b0f5155b8ba75f9e.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002790s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002814s ]
+
+[ 2017-10-24T12:04:36+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/showProjectzd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 0 and Type="大海智地" ) ORDER BY ord DESC  [ RunTime:0.0091s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 1 and Type="大海智地" ) ORDER BY ord DESC  [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003584s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003626s ]
+
+[ 2017-10-24T12:04:37+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/showProjectky.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003608s ]
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 0 and Type="凯盈集团" ) ORDER BY ord DESC  [ RunTime:0.0091s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 1 and Type="凯盈集团" ) ORDER BY ord DESC  [ RunTime:0.3082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004726s ]
+
+[ 2017-10-24T12:04:38+08:00 ] 127.0.0.1 /index.php?s=/Home/Index/showProject.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+NOTIC: [8] Undefined index: S C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Home\Controller\IndexController.class.php 第 148 行.
+SQL: SHOW COLUMNS FROM `project` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 0 and Type="大海凯盈" ) ORDER BY ord DESC  [ RunTime:0.0061s ]
+SQL: SELECT * FROM `project` WHERE ( Top = 1 and Type="大海凯盈" ) ORDER BY ord DESC  [ RunTime:0.0047s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: S C:\Users\huangwj\Desktop\huangwj\dhky\dhky\Application\Runtime\Cache\Home\2aeb8ff219cac991b0f5155b8ba75f9e.php 第 466 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005699s ]
+
